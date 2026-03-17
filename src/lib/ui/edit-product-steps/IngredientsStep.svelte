@@ -55,6 +55,7 @@
 				return;
 			}
 
+			console.log(tmpData);
 			const data = tmpData as OCRResult;
 			if (!data || typeof data !== 'object') {
 				console.warn('OCR failed - invalid result:', data);
